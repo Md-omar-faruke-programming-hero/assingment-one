@@ -3,6 +3,15 @@ body {
   /* margin: 0px 30px; */
   background-color: rgba(248, 240, 225, 0.39);
 }
+.ulist {
+  float: inline-end;
+  margin-top: 50px;
+}
+.list {
+  text-decoration: none;
+  color: black;
+  margin-right: 40px;
+}
 
 .span {
   color: orangered;
@@ -26,8 +35,11 @@ body {
 .sectiononeh1 {
   color: #7c7e7b;
 }
-.sectionfiveh3{
+.sectionfiveh3 {
   font-size: 1.5em;
+}
+.imgpath{
+  clip-path: polygon(72% 0, 100% 29%, 100% 61%, 64% 100%, 25% 100%, 0% 60%, 0 0);
 }
 /* section one */
 .section-one {
@@ -87,7 +99,7 @@ body {
 .sectionthreeborder {
   border: 1px solid;
   padding: 10px;
-  margin-bottom:  50px;
+  margin-bottom: 50px;
   border-radius: 10px;
   box-shadow: 3px 2px 10px rgb(29, 6, 238);
   margin-top: 50px;
@@ -95,25 +107,54 @@ body {
 
 /* section four */
 
-.section-four{
+.section-four {
   display: flex;
   align-items: center;
   justify-content: space-around;
   border: 1px solid white;
-margin: 0px 50px;
-border-radius: 20px;
-padding: 15px;
-background-color: white;
-
+  margin: 0px 50px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: white;
 }
 
 /* section five */
-footer{
+footer {
   text-align: center;
   margin: 50px 0px;
   background-image: linear-gradient(to left, #efefbb, #d4d3dd);
   padding: 50px;
 }
+.icon {
+  display: flex;
+  justify-content: center;
+}
 
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 10px;
+  border-radius: 50%;
+}
 
+.fa:hover {
+  opacity: 0.8;
+}
 
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
