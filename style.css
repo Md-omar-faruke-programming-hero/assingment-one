@@ -38,8 +38,16 @@ body {
 .sectionfiveh3 {
   font-size: 1.5em;
 }
-.imgpath{
+.imgpath {
   clip-path: polygon(72% 0, 100% 29%, 100% 61%, 64% 100%, 25% 100%, 0% 60%, 0 0);
+}
+#c{
+  text-align: center;
+  color: #bb0000;
+
+}
+.h6{
+  text-align: center;
 }
 /* section one */
 .section-one {
@@ -112,6 +120,7 @@ body {
   align-items: center;
   justify-content: space-around;
   border: 1px solid white;
+  box-shadow: 1px 1px 5px rgba(231, 6, 6, 0.185);
   margin: 0px 50px;
   border-radius: 20px;
   padding: 15px;
