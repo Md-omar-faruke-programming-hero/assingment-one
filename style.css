@@ -178,6 +178,11 @@ body {
 .span2 {
   color: tomato;
 }
+hr {
+  border: 3px solid #ffe259;
+  border-radius: 50%;
+  /* background-color: linear-gradient(to left, #ffe259, #ffa751); */
+}
 
 /* section six */
 footer {
