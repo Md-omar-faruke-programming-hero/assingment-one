@@ -41,12 +41,11 @@ body {
 .imgpath {
   clip-path: polygon(72% 0, 100% 29%, 100% 61%, 64% 100%, 25% 100%, 0% 60%, 0 0);
 }
-#c{
+#c {
   text-align: center;
   color: #bb0000;
-
 }
-.h6{
+.h6 {
   text-align: center;
 }
 /* section one */
@@ -128,6 +127,59 @@ body {
 }
 
 /* section five */
+
+#clint {
+  color: white;
+  background-color: orange;
+  border: 1px solid;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.comment {
+  text-align: center;
+  margin-bottom: 0px;
+  display: block;
+  margin-top: 16px;
+}
+.commentsection-margin {
+  border: 1px solid rgb(252, 190, 190);
+  display: inline-block;
+  width: 40%;
+  padding: 10px;
+
+  background-image: #dff9fb;
+
+  color: black;
+}
+.commentsection {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 4px;
+}
+#one {
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+#two {
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#three {
+  border-top-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+}
+#four {
+  border-top-left-radius: 45px;
+  border-bottom-right-radius: 45px;
+}
+.small {
+  color: coral;
+}
+.span2 {
+  color: tomato;
+}
+
+/* section six */
 footer {
   text-align: center;
   margin: 50px 0px;
