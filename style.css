@@ -102,6 +102,13 @@ body {
 .sectionthreepic {
   width: 100%;
   border-radius: 30px;
+  transition: transform .4s ease;
+
+}
+.sectionthreepic:hover{
+  transform: scale(1.1);
+  box-shadow: 2px 5px 5px black;
+
 }
 .sectionthreeborder {
   border: 1px solid;
